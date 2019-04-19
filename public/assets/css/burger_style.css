@@ -1,0 +1,61 @@
+html,
+body  {
+    height: 100%;
+}
+
+body  {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/burger.jpg")
+}
+
+.hidden  {
+    display: none;
+}
+
+h3,
+h1  {
+    text-align: center;
+    color: #eee;
+    font-family: 'Monoton', cursive;
+}
+
+.left-block,
+#right-block {
+   text-align: center;
+}
+
+.eat-btn,
+.del-btn  {
+    margin-top: 5px;
+}
+
+.eat-btn  {
+    background-color: rgb(36, 36, 162);
+}
+.del-btn  {
+    background-color: rgb(208, 50, 50);
+    border: 2px solid rgb(103, 2, 2);
+}
+
+.burger-btn,
+.clear-btn  {
+    background-color: rgb(42, 196, 42);
+    border: rgb(6, 88, 6) 2px solid;
+}
+
+#name  {
+    border: rgb(6, 88, 6) 2px solid;
+    color: rgb(28, 28, 28);
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.eat-btn,
+.del-btn,
+.burger-btn,
+.clear-btn,
+#name  {
+    font-family: 'Source Sans Pro', sans-serif;
+}
